@@ -1,0 +1,66 @@
+.myAlert-bottom {
+    position: fixed;
+    bottom: 5px;
+    left: 2%;
+    width: 96%;
+    z-index: 1052;
+}
+
+.navbar-default .navbar-nav>li.dropdown:hover>a,
+.navbar-default .navbar-nav>li.dropdown:hover>a:hover,
+.navbar-default .navbar-nav>li.dropdown:hover>a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+
+li.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.nav-top-line {
+    border-top: 1px solid rgba(72, 94, 144, 0.16);
+}
+
+
+.text-gray {
+    color: gray;
+    font-size: 10px;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+.swal-text {
+    text-align: center !important;
+}
+
+.erp-module-nav-img {
+    vertical-align: middle;
+    border: 1px solid;
+    transition: transform .3s;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: lavenderblush;
+
+}
+.erp-module-nav-img:hover{
+    transform: scale(1.2); 
+}
+.erp-table{
+    height: 70px;
+    width: 100%;
+    border: 1px solid rgb(208, 208, 208);
+    background-color: #EEEEEE;
+    padding-left: 10px !important;
+}
+.vl{
+    border-left: 2px solid #DFE2EA;
+    height: 42px;
+}
+
+@media (max-width: 768px){
+    .vl{
+        display: none;
+    }
+}
